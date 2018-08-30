@@ -63,7 +63,15 @@ gem 'bootstrap', '4.0.0.alpha6'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
-
+#simple form for user input
 gem 'simple_form'
-
+#devise for user authentication
 gem 'devise'
+#carrierwave for image uploading
+gem 'carrierwave', '~> 1.0'
+#figaro gem for secret values
+gem 'figaro'
+#fog gem to configure carrierwave with Amazon S3
+gem 'fog-aws'
+
+
