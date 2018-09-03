@@ -1,6 +1,6 @@
 @import "bootstrap";
 
-.body {
+body {
   background-color: #fafafa;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -87,10 +87,28 @@ input.boolean label {
   line-height: 44px;
 }
 
-.gram-actions a {
+.gram-actions  {
   font-weight: bold;
   font-size: 16px;
   margin-right: 20px;
   margin-left: auto;
+}
 
+.gram-actions a {
+  padding-left: 10px;
+}
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.comment_handle {
+  color: #125688;
+  font-weight: bold;
+  font-size: 18px;
 }
